@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg  fixed-top" id="mynavber">
+    <div class="container-fluid">
+      <!-- <a href="#">
+                <img src="https://www.w3schools.com/w3css/img_avatar.png" alt="logo" style="width:40px;"
+                    class="rounded-pill">
+            </a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="#">
+              <img src="./Bilal Ahmad.jpeg" alt="logo" style="width:40px; height: 40px;" class="rounded-pill">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Stats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#client">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Go</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <div id="home-cover" class="bg-parallax animated fadeIn">
+      <div id="home-content-box">
+        <div id="home-content-box-inner">
+          <div id="home-heading" class="animated zoomIn">
+            <h3>
+              <br> "WATCH OUT" <br> THE MODERN RESPONSIVE WEBSITE!
+            </h3>
+          </div>
+          <div id="home-btn-work" class="animated zoomIn">
+            <a class="btn btn-lg btn-general btn-white btn-outline-light smooth-scroll" href="#work" role="button"
+              title="View Our Work">
+              View Our Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service">
+    <div class="container mt-5">
+      <h1>Services</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <!-- Service 1 -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./web desing.jfif" class="card-img-top" alt="WEB DESIGN">
+            <div class="card-body">
+              <h5 class="card-title">WEB DESIGN</h5>
+              <p class="card-text">Web design refers to the design of websites that are displayed on the internet.
+                It usually refers to the user experience aspects of website development ...</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./web development22.jpg" class="card-img-top" alt="WEB DEVELOPMENT">
+            <div class="card-body">
+              <h5 class="card-title">WEB DEVELOPMENT</h5>
+              <p class="card-text">the tasks associated with creating,
+                and maintaining websites and web applications that run online on a browser</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./mobile222.jpg" class="card-img-top" alt="MOBILE APPS">
+            <div class="card-body">
+              <h5 class="card-title">MOBILE APPS</h5>
+              <p class="card-text">a software application developed specifically for use on small,
+                such as smartphones and tablets, rather than desktop or laptop computers.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./seo-optimization.jpg" height="250px" class="card-img-top" alt="SEO OPTIMIZATION">
+            <div class="card-body">
+              <h5 class="card-title">SEO OPTIMIZATION</h5>
+              <p class="card-text"> the art and science of getting pages to rank higher in search engines such as
+                Google.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./ux.png" height="250px" class="card-img-top" alt="UX DESIGN">
+            <div class="card-body">
+              <h5 class="card-title">UX DESIGN</h5>
+              <p class="card-text">the process of creating products or services that provide meaningful experiences for
+                users,</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="./Support.jpg" height="250px" class="card-img-top" alt="SUPPORT">
+            <div class="card-body">
+              <h5 class="card-title">SUPPORT</h5>
+              <p class="card-text">Support services are processes that professionals
+                use to execute a core program or function that generates revenue.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h1>About Me</h1>
+      <img src="./Bilal Ahmad.jpeg" alt="Profile Picture" class="profile-picture">
+      <p class="about-text">I am a passionate web developer with a strong background in front-end and back-end
+        technologies. I enjoy creating responsive and user-friendly websites that provide a great user experience. In my
+        free time, I like to experiment with new technologies and work on personal projects.</p>
+    </div>
+  </section>
+
+  <section class="our-work">
+    <h1>Our Work</h1>
+    <h5 style="color: aliceblue; text-align: center;">Get information about the work by clicking the button</h5>
+    <div id="myBtnContainer">
+      <button class="btn-blue" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn-blue" onclick="filterSelection('nature')"> Nature</button>
+      <button class="btn-blue" onclick="filterSelection('cars')"> Cars</button>
+      <button class="btn-blue" onclick="filterSelection('bike')"> Bike</button>
+      <button class="btn-blue" onclick="filterSelection('bus')"> Bus</button>
+      <button class="btn-blue" onclick="filterSelection('train')"> Train</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column nature">
+        <div class="content">
+          <img src="./our-work background.jfif" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          <h4>Mountains</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./backgroundsection2.jfif" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          <h4>Lights</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="./aboutbackgroung.jfif" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          <h4>Forest</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column cars">
+        <div class="content">
+          <img src="./car1.webp" alt="Car" style="width:100%" onclick="myFunction(this);">
+          <h4>Retro</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img src="./car2.jfif" alt="Car" style="width:100%" onclick="myFunction(this);">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column cars">
+        <div class="content">
+          <img src="./car3.jfif" alt="Car" style="width:100%" onclick="myFunction(this);">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column bike">
+        <div class="content">
+          <img src="./bike13.jfif" alt="bike" style="width:100%" onclick="myFunction(this);">
+          <h4>Overdrive</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column bike">
+        <div class="content">
+          <img src="./bike2.jfif" alt="bike" style="width:100%" onclick="myFunction(this);">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column bike">
+        <div class="content">
+          <img src="./bike3.jfif" alt="bike" style="width:100%" onclick="myFunction(this);">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column bus">
+        <div class="content">
+          <img src="./bus1.jfif" alt="bus" style="width:100%" onclick="myFunction(this);">
+          <h4>Overdrive</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column bus">
+        <div class="content">
+          <img src="./bus2.jfif" alt="bus" style="width:100%" onclick="myFunction(this);">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column bus">
+        <div class="content">
+          <img src="./bus3.jfif" alt="bus" style="width:100%" onclick="myFunction(this);">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="column train">
+        <div class="content">
+          <img src="./train1.jpg" alt="train" style="width:100%" onclick="myFunction(this);">
+          <h4>Overdrive</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column train">
+        <div class="content">
+          <img src="./tran2.jfif" alt="train" style="width:100%" onclick="myFunction(this);">
+          <h4>Fast</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column train">
+        <div class="content">
+          <img src="./tran3.jfif" alt="train" style="width:100%" onclick="myFunction(this);">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:50%">
+        <div id="imgtext"></div>
+      </div>
+      <!-- END GRID -->
+    </div>
+  </section>
+
+  <section id="our-team">
+    <div class="container">
+      <h1 class="text-center mt-5">Our Team</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Bilal Ahmad.jpeg" alt="Muhammad Bilal Ahmad" style="width:100%">
+            <h1 id="gh">Muhammad Bilal Ahmad</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">
+              <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><i
+                  class="fa fa-linkedin linkedin-icon"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100023576310113"><i
+                  class="fa fa-facebook facebook-icon"></i></a>
+              <a href="https://wa.me/923162640335"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+              <a href="https://www.instagram.com/bilal20code/"><i class="fa fa-instagram instagram-icon"></i></a>
+            </div>
+          </div>
+        </div><br>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Bilal Ahmad.jpeg" alt="Muhammad Owais Ahmad" style="width:100%">
+            <h1 id="gh">Muhammad Owais Ahmad</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">
+              <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><i
+                  class="fa fa-linkedin linkedin-icon"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100023576310113"><i
+                  class="fa fa-facebook facebook-icon"></i></a>
+              <a href="https://wa.me/923162640335"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+              <a href="https://www.instagram.com/bilal20code/"><i class="fa fa-instagram instagram-icon"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Bilal Ahmad.jpeg" alt="Muhammad Raza Ahmad" style="width:100%">
+            <h1 id="gh">Muhammad Raza Ahmad</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">
+              <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><i
+                  class="fa fa-linkedin linkedin-icon"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100023576310113"><i
+                  class="fa fa-facebook facebook-icon"></i></a>
+              <a href="https://wa.me/923162640335"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+              <a href="https://www.instagram.com/bilal20code/"><i class="fa fa-instagram instagram-icon"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./33333.jfif" alt="Muhammad Hamza Ahmad" style="width:100%">
+            <h1 id="gh">Muhammad Hamza Ahmad</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">
+              <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><i
+                  class="fa fa-linkedin linkedin-icon"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100023576310113"><i
+                  class="fa fa-facebook facebook-icon"></i></a>
+              <a href="https://wa.me/923162640335"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+              <a href="https://www.instagram.com/bilal20code/"><i class="fa fa-instagram instagram-icon"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./22222.jfif" alt="Muhammad Bilal Ahmad" style="width:100%">
+            <h1 id="gh">Muhammad Bilal Ahmad</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">
+              <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><i
+                  class="fa fa-linkedin linkedin-icon"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100023576310113"><i
+                  class="fa fa-facebook facebook-icon"></i></a>
+              <a href="https://wa.me/923162640335"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+              <a href="https://www.instagram.com/bilal20code/"><i class="fa fa-instagram instagram-icon"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src=".//11111.jfif" alt="Muhammad Bilal Ahmad" style="width:100%">
+            <h1 id="gh">Muhammad Bilal Ahmad</h1>
+            <p class="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+            <div style="margin: 24px 0;">
+              <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><i
+                  class="fa fa-linkedin linkedin-icon"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100023576310113"><i
+                  class="fa fa-facebook facebook-icon"></i></a>
+              <a href="https://wa.me/923162640335"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+              <a href="https://www.instagram.com/bilal20code/"><i class="fa fa-instagram instagram-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="our-pricing">
+    <div class="container">
+      <h1 class="text-center mt-5">Our Pricing</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card black-white-card">
+            <div class="card-body">
+              <h5 class="card-title">Basic Plan</h5>
+              <p class="card-text" style="font-size: 35px; color: black;">$19/month</p>
+              <ul class="pricing-spec">
+                <li>
+                  <p>500 EMAILS</p>
+                </li>
+                <li>
+                  <p>5GB Disk Space</p>
+                </li>
+                <li>
+                  <p>5GB BANDWITh</p>
+                </li>
+                <li>
+                  <p>UNLIMITED DOMAINS</p>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-outline-dark">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card black-white-card">
+            <div class="card-body">
+              <h5 class="card-title">Standard Plan</h5>
+              <p class="card-text" style="font-size: 35px; color: black;">$39/month</p>
+              <ul class="pricing-spec">
+                <li>
+                  <p>200 EMAILS</p>
+                </li>
+                <li>
+                  <p>25GB Disk Space</p>
+                </li>
+                <li>
+                  <p>25GB BANDWITh</p>
+                </li>
+                <li>
+                  <p>UNLIMITED DOMAINS</p>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-outline-dark">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card black-white-card">
+            <div class="card-body">
+              <h5 class="card-title">Premium Plan</h5>
+              <p class="card-text" style="font-size: 35px; color: black;">$59/month</p>
+              <ul class="pricing-spec">
+                <li>
+                  <p>1s500 EMAILS</p>
+                </li>
+                <li>
+                  <p>15GB Disk Space</p>
+                </li>
+                <li>
+                  <p>15GB BANDWITh</p>
+                </li>
+                <li>
+                  <p>UNLIMITED DOMAINS</p>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-outline-dark">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </section>
+
+  <section id="stats">
+    <div id="stats-cover" class="bg-parallax">
+        <div class="content-box">
+            <h1>STATS</h1>
+            <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s"
+                data-wow-delay=".5s">
+                <h3>We Never Stop Improving</h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s"
+                    data-wow-delay=".5s">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats-item"> <i class="fa fa-cloud-download fa-5x"></i>
+                            <h2><span class="counter">30,000</span><span id="downloadCount">+</span></h2>
+                            <p>Downloads</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats-item"> <i class="fa fa-star-o fa-5x"></i>
+                            <h2><span class="counter">15000</span id="downloadCount"><span>+</span></h2>
+                            <p>Awards</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats-item"> <i class="fa fa-heart fa-5x"></i>
+                            <h2><span class="counter">20,000</span id="downloadCount"><span>+</span></h2>
+                            <p>Likes</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="stats-item"> <i class="fa fa-check fa-5x"></i>
+                            <h2><span class="counter">25000</span id="downloadCount"><span>+</span></h2>
+                            <p>Recommended</p>
+                        </div>
+                    </div>
+                    <!-- Add other stats items here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <section id="client">
+    <h1 class="text-center mt-5">Clients</h1>
+    <div id="clientCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./Bilal Ahmad.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2 style="margin-top: 30px;">Muhammad Bilal Ahmad</h2>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./owais.JPG" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2 style="margin-top: 30px;">Muhammad Owais Ahmad</h2>
+                                <p>Softwere Engineer</p>
+                                <p>Awesome creative mind</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./ahmedraza.JPG" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2 style="margin-top: 30px;">Muhammad Raza Ahmad</h2>
+                                <p>Graphic  Designer</p>
+                                <p>Awesome creative mind</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./hamza.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h2 style="margin-top: 30px;">Muhammad Humza Ahmad</h2>
+                                <p>Softwere Engineer &  Graphic Designer</p>
+                                <p>Awesome creative mind</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#clientCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#clientCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>  
+
+  <footer class="py-5" id="contact">
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-sm-6">
+                    <h1 class="mt-3 mb-4" >Contact Us</h1>
+                    <p id="efg">If you have any questions or inquiries, feel free to get in touch with us.</p>
+                    <address>
+                      <p  id="efg"><strong>Head Office: </strong>Aalami Madani Markaz <br> Faizan-e-madina Karachi</p>
+                      
+                      <p  id="efg">Email:<a href="mailto:bilal20code@gmail.com"  id="efg">bilal20code@gmail.com</a></p>
+                        <p  id="efg">Phone: <a href="tel:03162640335"  id="efg" >+92-316-2640335</a></p>
+                    </address>
+                </div>
+                <div class="col-sm-6">
+                    <h2 class="mb-3 mt-5"  id="efg">Follow Us</h2>
+                    <a href="https://www.facebook.com/profile.php?id=100023576310113"><img id="abcd" src="./logo-facebook-facebook-logo-transparent-png-pictures-icons-and-0.png" alt="Facebook"></a>
+                    <a href="#"><img id="abcd" src="./twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/bilal20code/"><img id="abcd" src="instagram.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/bilal-ahmad-a5a786279/"><img id="abcd" src="./174857.png" alt="Linkind"></a>
+                    <a href="https://wa.me/923162640335"><img id="abcd" src="./whatsapp-logo-app-png-4.png" alt="Whatsapp"></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                
+                <div class="contact-form">
+                    <form action="process_form.php" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label" >Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+  
+</body>
+
+<script>
+  // Change counter on hover
+  const statsItem = document.querySelectorAll('.stats-item');
+  statsItem.forEach(item => {
+      const counter = item.querySelector('.counter');
+      const originalNumber = parseInt(counter.textContent.replace(/\D+/g, ''));
+
+      item.addEventListener('mouseover', function() {
+          const interval = 100;
+          const targetNumber = originalNumber + 1000; // Change this to adjust increment
+
+          let currentNumber = originalNumber;
+          const updateCounter = () => {
+              if (currentNumber < targetNumber) {
+                  currentNumber += 10; // Change this to adjust increment speed
+                  counter.textContent = currentNumber.toLocaleString();
+                  setTimeout(updateCounter, interval);
+              }
+          };
+
+          updateCounter();
+      });
+
+      item.addEventListener('mouseout', function() {
+          counter.textContent = originalNumber.toLocaleString();
+      });
+  });
+</script>
+
+</html>

@@ -1,0 +1,376 @@
+
+
+#home{
+    background-image: url("water.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-attachment: fixed;
+    /* background-color: #f7f7f7; */
+    margin: 0;
+    padding: 0;
+}
+
+#service{
+    /* background-image: url("water.jfif"); */
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+
+.navbar-nav{
+    margin-left: 13px;
+    color: whitesmoke;
+      
+}
+.navbar-nav a {
+     color:white; 
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+    padding: 250px;
+}
+
+.btn-white{
+    border-color: white;
+    color: white;
+    border-style:dashed;
+    text-align: center;
+    margin-left: 500px; 
+}
+.btn-white :hover{
+    color: gray;
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("water.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    padding: 0; 
+}
+
+
+#about {
+    /* background-image: url("water.jfif"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    /* font-size: 36px; */
+    font-weight: bold;
+    color: whitesmoke; /* Blue */
+    /* background-color: darkblue; */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.profile-picture {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    color: #333;
+    background-color: aquamarine;
+    line-height: 1.6;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  .row {
+    margin: 7px -10px;
+  }
+  
+  /* Add padding BETWEEN each column */
+ 
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 5px;
+    
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn-blue {
+    border: none;
+    outline: none;
+    padding: 11px 16px;
+    background-color: white;
+    margin-inline-start: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .btn-blue:hover {
+    background-color: gray;
+    color: wheat;
+    font-size: large;
+    
+  }
+  
+  .btn-blue {
+    background-color: darkblue;
+    color: white;
+  }
+
+  .content img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+
+  .content img:hover {
+    opacity: 1;
+  }
+
+  
+  /* Basic styles can be retained or adjusted according to your design */
+.team-member {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social-icons a {
+  margin: 0 10px;
+  /* color: #333; */
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+  color: #007bff;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+ a:hover {
+  opacity: 0.7;
+}
+
+/* Pehle wale CSS ko retain karein ya customize karein */
+.facebook-icon {
+  color: #1877F2;
+}
+
+.linkedin-icon {
+  color: #0A66C2;
+}
+
+.instagram-icon {
+  color: #E4405F;
+}
+
+.whatsapp-icon {
+  color: #25D366;
+}
+
+#gh{
+  color: #000;
+  font-size: 23px;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.black-white-card {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.black-white-card .card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.black-white-card .btn {
+  margin-top: 1rem;
+}
+
+
+.bg-parallax {
+  background-image: url('your-bg-image.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  color: white;
+}
+.content-box {
+  text-align: center;
+}
+.content-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content-title h3 {
+  font-size: 24px;
+}
+.content-title-underline {
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  margin: 0 auto;
+}
+.stats-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.stats-item i {
+  color: white;
+}
+.stats-item h2 {
+  color: white;
+  font-size: 36px;
+}
+.stats-item p {
+  color: white;
+  margin-top: 10px;
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 5000px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.flip-card-inner {
+  position:absolute;
+  width: 100%;
+  margin-left: 425px;
+  height: 100%;
+  text-align: center;
+  transform-style:preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: darkblue;
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  color: aliceblue;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#abcd{
+  width: 10%;
+  height: auto;
+  color: aliceblue;
+}
+
+#efg{
+  color: aliceblue;
+}
+
